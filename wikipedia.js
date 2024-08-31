@@ -1,12 +1,9 @@
 let searchInputEl = document.getElementById("searchInput");
-
 let searchResultsEl = document.getElementById("searchResults");
-
 let spinnerEl = document.getElementById("spinner");
 
 function createAndAppendSearchResult(result) {
   let { link, title, description } = result;
-
   let resultItemEl = document.createElement("div");
   resultItemEl.classList.add("result-item");
 
